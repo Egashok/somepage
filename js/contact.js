@@ -1,5 +1,5 @@
 $(function(){
-    $('.present__slider').slick({
+    $('.slider__inner').slick({
         dots: true,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -7,11 +7,7 @@ $(function(){
         arrows:false,
        
     });
-    let mixer=mixitup('.gallery',{
-        load:{
-            filter:'.bedroom'
-        }
-    });
+
     $('.header__menu').on('click',function(){
         $('.rightMenu').removeClass('off')
 

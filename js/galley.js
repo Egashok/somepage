@@ -7,7 +7,7 @@ $(function(){
         arrows:false,
        
     });
-    let mixer=mixitup('.gallery',{
+    var mixer=mixitup('.gallery',{
         load:{
             filter:'.bedroom'
         }
