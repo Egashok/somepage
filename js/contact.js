@@ -5,8 +5,10 @@ $(function(){
         slidesToScroll: 1,
         fade:true,
         arrows:false,
+        
        
     });
+
 
     $('.header__menu').on('click',function(){
         $('.rightMenu').removeClass('off')

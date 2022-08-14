@@ -7,5 +7,11 @@ $(function(){
         prevArrow: '<button id="next" class="parr"  type="button" ><img src="img/narr.png"></button>',
         nextArrow: '<button id="next" class="narr" type="button" ><img src="img/parr.svg"></button>',
     });
+    $('.header__menu').on('click',function(){
+        $('.rightMenu').removeClass('off')
 
+    });
+    $('.close').on('click',function(){
+        $('.rightMenu').addClass('off')
+    });
 })
